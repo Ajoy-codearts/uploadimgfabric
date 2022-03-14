@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/fabric_min.js"></script>
+    <script src="js/jscolor.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <img src="image/download.jpg" id="image" alt="">
+    <div class="menu">
+        <button id="activate">line draw activate</button>
+        <button id="deactivate">line draw deactivate</button>
+        <input value="#000000FF" id="colorbx" data-jscolor="{}">
+        <button id="rect">drawRect active</button>
+        <button id="drect" onclick="stopRect()">draw rect deactive</button>
+        <button id="clearAll" onclick="clearAll(canvas)">clear</button>
+        <button id="delete" onclick="deleteItem()">delete</button>
+        <input type="file" id="uploadbtn">
+    </div>
+</body>
+<script src="js/app.js"></script>
+</html>

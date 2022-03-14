@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    height: 78px;
+}
+
+button{
+    padding: 10px;
+    color: #fff;
+    margin-right: 5px;
+    margin-left: 4px;
+}
+input{
+    border: none;
+    width: 36px;
+    height: 36px;
+}
+#activate{
+    background-color: green;
+    border-radius: 16px;
+    border: none;
+}
+#activate:hover{
+    background-color: rgb(9, 194, 9);
+}
+#deactivate{
+    background-color: red;
+    border-radius: 16px;
+    border: none;
+}
+#deactivate:hover{
+    background-color: rgb(161, 4, 4);
+}
+#rect{
+    background-color: green;
+    color: rgb(253, 244, 244);
+    border-radius: 16px;
+    border: none;
+}
+#rect:hover{
+    background-color: rgb(7, 204, 7);
+}
+#drect{
+    background-color: red;
+    color: #fff;
+    border-radius: 16px;
+    border: none;
+}
+#drect:hover{
+    background-color: rgb(153, 6, 6);
+}
+#clearAll{
+    color: rgb(138, 6, 6);
+    background-color: rgb(9, 170, 162);
+    border-radius: 16px;
+    border: none;
+}
+#clearAll:hover{
+    background-color: rgb(39, 38, 38);
+    color: #fff;
+}
+#colorbx{
+    width: 110px;
+    border-radius: 16px;
+
+}
+#image{
+    display: none;
+    width: 100%;
+}
+#uploadbtn{
+    width: 200px;
+}
+#delete{
+    color: black;
+}
